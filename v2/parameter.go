@@ -698,7 +698,7 @@ func (par *ParameterInfo) decodePrimValue(conn *Connection, temporaryLobs *[][]b
 			return err
 		}
 	default:
-		return fmt.Errorf("unable to decode oracle type ??? to its primitive value")
+		return fmt.Errorf("unable to decode oracle type ?? to its primitive value")
 	}
 	return nil
 }
