@@ -1,10 +1,10 @@
-module github.com/sijms/go-ora
+module github.com/overshinin/go-ora
 
 go 1.18
 
 require (
 	github.com/jcmturner/gokrb5/v8 v8.4.4
-	github.com/sijms/go-ora/v2 v2.8.19
+	github.com/overshinin/go-ora/v2 v2.8.19
 )
 
 require (
