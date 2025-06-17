@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	go_ora "github.com/sijms/go-ora/v2"
+	go_ora "github.com/overshinin/go-ora/v2"
 )
 
 type DBOutput struct {

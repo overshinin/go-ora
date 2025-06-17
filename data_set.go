@@ -4,9 +4,9 @@ import (
 	"database/sql/driver"
 	"io"
 
-	"github.com/sijms/go-ora/trace"
+	"github.com/overshinin/go-ora/trace"
 
-	"github.com/sijms/go-ora/network"
+	"github.com/overshinin/go-ora/network"
 )
 
 // Compile time Sentinels for implemented Interfaces.

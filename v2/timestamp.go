@@ -4,7 +4,7 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 	"errors"
-	"github.com/sijms/go-ora/v2/converters"
+	"github.com/overshinin/go-ora/v2/converters"
 	"time"
 )
 

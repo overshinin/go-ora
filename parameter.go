@@ -5,7 +5,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/sijms/go-ora/network"
+	"github.com/overshinin/go-ora/network"
 )
 
 type (

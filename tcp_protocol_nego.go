@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sijms/go-ora/network"
+	"github.com/overshinin/go-ora/network"
 )
 
 type TCPNego struct {

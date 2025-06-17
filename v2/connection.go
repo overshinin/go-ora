@@ -14,14 +14,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sijms/go-ora/v2/lazy_init"
+	"github.com/overshinin/go-ora/v2/lazy_init"
 
-	"github.com/sijms/go-ora/v2/configurations"
-	"github.com/sijms/go-ora/v2/trace"
+	"github.com/overshinin/go-ora/v2/configurations"
+	"github.com/overshinin/go-ora/v2/trace"
 
-	"github.com/sijms/go-ora/v2/advanced_nego"
-	"github.com/sijms/go-ora/v2/converters"
-	"github.com/sijms/go-ora/v2/network"
+	"github.com/overshinin/go-ora/v2/advanced_nego"
+	"github.com/overshinin/go-ora/v2/converters"
+	"github.com/overshinin/go-ora/v2/network"
 )
 
 type ConnectionState int

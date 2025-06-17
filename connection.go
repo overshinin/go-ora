@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/sijms/go-ora/advanced_nego"
-	"github.com/sijms/go-ora/converters"
-	"github.com/sijms/go-ora/network"
+	"github.com/overshinin/go-ora/advanced_nego"
+	"github.com/overshinin/go-ora/converters"
+	"github.com/overshinin/go-ora/network"
 )
 
 type ConnectionState int

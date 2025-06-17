@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	_ "github.com/sijms/go-ora/v2"
+	_ "github.com/overshinin/go-ora/v2"
 )
 
 func main() {

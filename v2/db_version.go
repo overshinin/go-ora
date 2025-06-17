@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sijms/go-ora/v2/network"
+	"github.com/overshinin/go-ora/v2/network"
 )
 
 type DBVersion struct {

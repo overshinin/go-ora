@@ -4,7 +4,7 @@ import (
 	"database/sql/driver"
 	"errors"
 
-	"github.com/sijms/go-ora/v2/network"
+	"github.com/overshinin/go-ora/v2/network"
 )
 
 type simpleObject struct {

@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sijms/go-ora/network"
+	"github.com/overshinin/go-ora/network"
 )
 
 // E infront of the variable means encrypted

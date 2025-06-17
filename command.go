@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sijms/go-ora/converters"
-	"github.com/sijms/go-ora/network"
+	"github.com/overshinin/go-ora/converters"
+	"github.com/overshinin/go-ora/network"
 )
 
 type StmtType int
