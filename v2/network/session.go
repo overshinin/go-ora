@@ -1667,7 +1667,8 @@ func (session *Session) GetClr() (output []byte, err error) {
 	}
 	chunkSize := int(nb)
 	var chunk []byte
-	tempBuffer := bytes.NewBuffer(make([]byte, 1024))
+	var tempBuffer bytes.Buffer
+	tempBuffer.Grow(1024)
 	if chunkSize == 0xFE {
 		for chunkSize > 0 {
 			//if session.IsBreak() {
